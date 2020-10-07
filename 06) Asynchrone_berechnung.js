@@ -27,3 +27,13 @@ asynchron()
 .then((result) => result * 2)
 .then((result) => result * 3)
 .then((result) => console.log(result));
+
+
+
+// Asynchroner Aufruf mit Verkettung und abfang von Fehler
+asynchron()
+.then((result) => result * 2)
+.then((result) => result * 3)
+.then((result) => console.log(result))
+.catch((error) => {console.error(error)}
+);
