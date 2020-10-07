@@ -21,3 +21,9 @@ asynchron().then(
     console.log(error);
   }
 );
+
+// Asynchroner Aufruf mit Verkettung
+asynchron()
+.then((result) => result * 2)
+.then((result) => result * 3)
+.then((result) => console.log(result));
