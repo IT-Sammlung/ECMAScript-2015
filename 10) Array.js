@@ -16,3 +16,8 @@ console.log(nummerGerade);
 const nummerArray = [1,2,3,4,5];
 const nummerSearch = nummerArray.find((number) => number == 4);
 console.log(nummerSearch);
+
+// Search IndexOf
+const nummerArray = [1,2,3,4,5];
+const nummerSearch = nummerArray.indexOf(3);
+console.log(nummerSearch);
